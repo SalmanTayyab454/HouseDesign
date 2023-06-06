@@ -1,5 +1,8 @@
 body {
     background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    width: 800px;
 }
 
 .house-wrapper {
@@ -7,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    position: relative;
 }
 
 .house {
@@ -29,34 +33,47 @@ body {
 .chimney {
     width: 40px;
     height: 100px;
-    background-color: gray;
+    background-color: orange;
     position: absolute;
-    top: -100px;
-    left: -80px;
+    top: -143px;
+    left: 100px;
 }
 
 .walls {
-    width: 100%;
-    height: 200px;
-    background-color: white;
+    width: 600px;
+    height: 400px;
+    background-color: orange;
     position: absolute;
     bottom: 0;
+}
+
+.window--section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .window {
     width: 60px;
     height: 60px;
-    background-color: lightblue;
+    background-color: darkblue;
     margin: 10px;
 }
 
 .door {
-    width: 80px;
-    height: 160px;
-    background-color: orange;
+    width: 110px;
+    height: 162px;
+    background-color: chocolate;
     position: absolute;
     bottom: 0;
-    left: calc(50% - 40px);
+    left: 60%;
 }
 
 .handle {
@@ -66,18 +83,16 @@ body {
     border-radius: 50%;
     position: absolute;
     top: calc(50% - 8px);
-    right: 10px;
+    right: 20px;
 }
 
 .triangle {
+    position: absolute;
+    top: 17px;
+    left: 18%;
     width: 0;
     height: 0;
-    border-left: 200px solid transparent;
-    border-right: 200px solid transparent;
-    border-bottom: 200px solid red;
-    margin-top: -200px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    border-left: 354px solid transparent;
+    border-right: 354px solid transparent;
+    border-bottom: 180px solid orange;
 }
