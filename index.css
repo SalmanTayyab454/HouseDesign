@@ -83,7 +83,7 @@ body {
     border-radius: 50%;
     position: absolute;
     top: calc(50% - 8px);
-    right: 20px;
+    left: 80px;
 }
 
 .triangle {
