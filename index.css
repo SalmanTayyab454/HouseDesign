@@ -47,13 +47,13 @@ body {
     bottom: 0;
 }
 
-.window--section {
+.window--container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.section {
+.window--container__section {
     margin: 50px;
     display: flex;
     flex-wrap: wrap;
